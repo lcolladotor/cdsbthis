@@ -2,6 +2,8 @@
 
 NEW FEATURES
 
+* Creamos la función `cubicar()` siguiendo la demostración que hizo
+Marcel Ramos en vivo.
 * Added a `NEWS.md` file to track changes to the package.
 
 SIGNIFICANT USER-VISIBLE CHANGES
