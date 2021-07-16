@@ -4,6 +4,14 @@
 # cdsbthis
 
 <!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![BioC
+status](http://www.bioconductor.org/shields/build/release/bioc/cdsbthis.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/cdsbthis)
+[![R-CMD-check-bioc](https://github.com/lcolladotor/cdsbthis/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/lcolladotor/cdsbthis/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/lcolladotor/cdsbthis/branch/master/graph/badge.svg)](https://codecov.io/gh/lcolladotor/cdsbthis?branch=master)
 <!-- badges: end -->
 
 The goal of `cdsbthis` is to …
@@ -71,20 +79,35 @@ Please run this yourself to check for any updates on how to cite
 ``` r
 print(citation('cdsbthis'), bibtex = TRUE)
 #> 
-#> To cite package 'cdsbthis' in publications use:
-#> 
-#>   Leonardo Collado-Torres (2021). cdsbthis: Demostracion de biocthis
-#>   para la CDSB. R package version 0.99.0.
-#>   https://github.com/lcolladotor/cdsbthis
+#> lcolladotor (2021). _Ejemplo para CDSB_. doi: 10.18129/B9.bioc.cdsbthis
+#> (URL: https://doi.org/10.18129/B9.bioc.cdsbthis),
+#> https://github.com/lcolladotor/cdsbthis/cdsbthis - R package version
+#> 0.99.0, <URL: http://www.bioconductor.org/packages/cdsbthis>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {cdsbthis: Demostracion de biocthis para la CDSB},
-#>     author = {Leonardo Collado-Torres},
+#>     title = {Ejemplo para CDSB},
+#>     author = {{lcolladotor}},
 #>     year = {2021},
-#>     note = {R package version 0.99.0},
-#>     url = {https://github.com/lcolladotor/cdsbthis},
+#>     url = {http://www.bioconductor.org/packages/cdsbthis},
+#>     note = {https://github.com/lcolladotor/cdsbthis/cdsbthis - R package version 0.99.0},
+#>     doi = {10.18129/B9.bioc.cdsbthis},
+#>   }
+#> 
+#> lcolladotor (2021). "Ejemplo para CDSB." _bioRxiv_. doi: 10.1101/TODO
+#> (URL: https://doi.org/10.1101/TODO), <URL:
+#> https://www.biorxiv.org/content/10.1101/TODO>.
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Article{,
+#>     title = {Ejemplo para CDSB},
+#>     author = {{lcolladotor}},
+#>     year = {2021},
+#>     journal = {bioRxiv},
+#>     doi = {10.1101/TODO},
+#>     url = {https://www.biorxiv.org/content/10.1101/TODO},
 #>   }
 ```
 
