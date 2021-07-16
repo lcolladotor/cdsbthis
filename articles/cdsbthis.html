@@ -146,12 +146,25 @@
 </h1>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="st"><a href="https://github.com/lcolladotor/cdsbthis">"cdsbthis"</a></span><span class="op">)</span></code></pre></div>
+<p>Este paquete lo hizo <a href="https://github.com/lcolladotor">Leonardo Collado Torres</a> durante el mini curso de la CDSB, RMB y NNB-CCG <a href="https://comunidadbioinfo.github.io/minicurso_julio_2021/"><em>Creación de paquetes de software de R/Bioconductor</em></a>.</p>
+<div id="cubicar" class="section level2">
+<h2 class="hasAnchor">
+<a href="#cubicar" class="anchor"></a>Cubicar</h2>
+<p>Ejemplos de <code><a href="../reference/cubicar.html">cubicar()</a></code> que fue una función que creamos durante la demostración de <a href="https://github.com/LiNk-NY">Marcel Ramos</a>.</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="../reference/cubicar.html">cubicar</a></span><span class="op">(</span><span class="fl">2</span><span class="op">)</span>
+<span class="co">#&gt; [1] 8</span>
+<span class="fu"><a href="../reference/cubicar.html">cubicar</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq_len</a></span><span class="op">(</span><span class="fl">10</span><span class="op">)</span><span class="op">)</span>
+<span class="co">#&gt;  [1]    1    8   27   64  125  216  343  512  729 1000</span>
+<span class="fu"><a href="../reference/cubicar.html">cubicar</a></span><span class="op">(</span><span class="va">pi</span><span class="op">)</span>
+<span class="co">#&gt; [1] 31.00628</span></code></pre></div>
 <p>Edit this as you see fit =)</p>
 <p>Here is an example of you can cite your package inside the vignette:</p>
 <ul>
 <li>
 <em><a href="https://bioconductor.org/packages/3.13/cdsbthis">cdsbthis</a></em> (lcolladotor, 2021)</li>
 </ul>
+</div>
 </div>
 <div id="reproducibility" class="section level1">
 <h1 class="hasAnchor">
@@ -174,7 +187,7 @@
 </ul>
 <p>This package was developed using <em><a href="https://bioconductor.org/packages/3.13/biocthis">biocthis</a></em>.</p>
 <p>Code for creating the vignette</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">## Create the vignette</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="st"><a href="https://github.com/rstudio/rmarkdown">"rmarkdown"</a></span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/base/system.time.html">system.time</a></span><span class="op">(</span><span class="fu"><a href="https://pkgs.rstudio.com/rmarkdown/reference/render.html">render</a></span><span class="op">(</span><span class="st">"cdsbthis.Rmd"</span>, <span class="st">"BiocStyle::html_document"</span><span class="op">)</span><span class="op">)</span>
@@ -183,9 +196,9 @@
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="st"><a href="https://yihui.org/knitr/">"knitr"</a></span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/pkg/knitr/man/knit.html">knit</a></span><span class="op">(</span><span class="st">"cdsbthis.Rmd"</span>, tangle <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></code></pre></div>
 <p>Date the vignette was generated.</p>
-<pre><code>#&gt; [1] "2021-07-16 22:42:26 UTC"</code></pre>
+<pre><code>#&gt; [1] "2021-07-16 22:48:48 UTC"</code></pre>
 <p>Wallclock time spent generating the vignette.</p>
-<pre><code>#&gt; Time difference of 0.939 secs</code></pre>
+<pre><code>#&gt; Time difference of 1.176 secs</code></pre>
 <p><code>R</code> session information.</p>
 <pre><code>#&gt; ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
 #&gt;  setting  value                       
