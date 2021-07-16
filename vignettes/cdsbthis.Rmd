@@ -91,6 +91,20 @@ citation("cdsbthis")
 library("cdsbthis")
 ```
 
+Este paquete lo hizo [Leonardo Collado Torres](https://github.com/lcolladotor) durante el mini curso de la CDSB, RMB y NNB-CCG [_Creación de paquetes de software de R/Bioconductor_](https://comunidadbioinfo.github.io/minicurso_julio_2021/).
+
+
+## Cubicar
+
+Ejemplos de `cubicar()` que fue una función que creamos durante la demostración de [Marcel Ramos](https://github.com/LiNk-NY).
+
+```{r cubicar}
+cubicar(2)
+cubicar(seq_len(10))
+cubicar(pi)
+```
+
+
 Edit this as you see fit =)
 
 Here is an example of you can cite your package inside the vignette:
