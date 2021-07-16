@@ -7,7 +7,7 @@
 cubicar(x)
 }
 \arguments{
-\item{x}{un \code{numeric()} o \code{integer()} con el valor inicial. Puede ser un
+\item{x}{un \code{numeric()} con el valor inicial. Puede ser un
 vector, en cuyo caso se usaran las reglas de reciclaje de R.}
 }
 \value{
@@ -17,5 +17,8 @@ El cubo del valor \code{x}
 Calcula el cubo de un valor
 }
 \examples{
+
+## Unos ejemplos de cubicar()
 cubicar(10)
+cubicar(2)
 }
